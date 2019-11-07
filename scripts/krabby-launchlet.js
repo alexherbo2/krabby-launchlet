@@ -1,6 +1,6 @@
-const launchlet = () => {
-  const LCHOptionRecipes = Object.entries(modal.context.commands).map(([keyChord, { command, description }]) => {
-    const key = modal.keyValues(JSON.parse(keyChord)).join('+')
+krabby.commands.launchlet = () => {
+  const LCHOptionRecipes = Object.entries(krabby.modes.modal.context.commands).map(([keyChord, { command, description }]) => {
+    const key = krabby.modes.modal.keyValues(JSON.parse(keyChord)).join('+')
     const LCHRecipeName = `${key}: ${description}`
     return {
       LCHRecipeName,
@@ -13,4 +13,4 @@ const launchlet = () => {
   })
 }
 
-modal.map('Page', ['Alt', 'F1'], () => launchlet(), 'Run Launchlet')
+krabby.modes.modal.map('Page', ['Alt', 'F1'], () => krabby.commands.launchlet(), 'Run Launchlet')
