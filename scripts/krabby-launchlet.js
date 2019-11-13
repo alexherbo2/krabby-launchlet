@@ -13,4 +13,4 @@ krabby.commands.launchlet = () => {
   })
 }
 
-krabby.modes.modal.map('Page', ['Alt', 'F1'], () => krabby.commands.launchlet(), 'Run Launchlet')
+krabby.modes.modal.map('Page', ['Alt', 'F1'], () => krabby.commands.launchlet(), 'Run Launchlet', 'Launchlet')
