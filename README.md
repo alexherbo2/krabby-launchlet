@@ -11,7 +11,7 @@ Edit your `manifest.json` and `fetch` files.
 ``` sh
 fetch https://launchlet.dev/launchlet.js
 fetch https://launchlet.dev/launchlet.css
-fetch https://github.com/alexherbo2/krabby-launchlet/raw/master/scripts/krabby-launchlet.js
+fetch https://github.com/alexherbo2/krabby-launchlet/raw/master/scripts/krabby/launchlet.js krabby/launchlet.js
 ```
 
 `~/.config/krabby/manifest.json`
@@ -22,7 +22,7 @@ fetch https://github.com/alexherbo2/krabby-launchlet/raw/master/scripts/krabby-l
     {
       "js": [
         "packages/launchlet.js",
-        "packages/krabby-launchlet.js"
+        "packages/krabby/launchlet.js"
       ],
       "css": [
         "packages/launchlet.css"
