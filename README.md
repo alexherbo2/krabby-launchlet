@@ -43,5 +43,5 @@ make
 
 Press <kbd>Alt</kbd> + <kbd>F1</kbd> to run commands by name.
 
-[Krabby]: https://github.com/alexherbo2/krabby
+[Krabby]: https://krabby.netlify.com
 [Launchlet]: https://launchlet.dev
