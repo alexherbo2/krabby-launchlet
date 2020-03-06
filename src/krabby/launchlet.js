@@ -1,6 +1,6 @@
 krabby.commands.launchlet = () => {
   const LCHOptionRecipes = Object.values(krabby.modes.modal.context.commands).map(({ keyChord, command, description }) => {
-    const key = krabby.modes.modal.keyValues(keyChord).join('+')
+    const key = krabby.modes.modal.keyValues(keyChord).join('-')
     const LCHRecipeName = `${key}: ${description}`
     return {
       LCHRecipeName,
