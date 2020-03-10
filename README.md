@@ -35,7 +35,7 @@ fetch https://github.com/alexherbo2/krabby-launchlet/raw/master/src/krabby/launc
 }
 ```
 
-Run the following in your terminal.
+Run the following in your terminal:
 
 ``` sh
 cd ~/.config/krabby
