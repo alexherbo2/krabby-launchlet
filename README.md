@@ -1,6 +1,6 @@
 # [Launchlet] for [Krabby]
 
-[Krabby]: https://krabby.netlify.com
+[Krabby]: https://krabby.netlify.app
 [Launchlet]: https://launchlet.dev
 
 A [Krabby] plugin to run commands by name with [Launchlet].
